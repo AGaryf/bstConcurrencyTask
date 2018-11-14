@@ -7,7 +7,7 @@ import java.util.StringTokenizer;
 
 public class WordsToDigitConverter {
 
-    static volatile List<Integer> array = new ArrayList<>();
+    static final List<Integer> array = new ArrayList<>();
 
     private static final String[] DIGITS = {
             "one",

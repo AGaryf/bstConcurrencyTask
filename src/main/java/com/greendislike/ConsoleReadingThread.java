@@ -23,7 +23,7 @@ public class ConsoleReadingThread extends WordsToDigitConverter implements Runna
                         }
                         System.out.println("Console Reading Thread: " + result + " added");
                     } else {
-                        System.out.println("Console Reading Thread: wrong input" + newLine);
+                        System.out.println("Console Reading Thread: wrong input - " + newLine);
                     }
                 }
             }
